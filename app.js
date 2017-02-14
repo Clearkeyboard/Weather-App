@@ -7,7 +7,7 @@ var wind;
 var direction;
 
 function updateByZip(zip) {
-    var url = "http://api.openweathermap.org/data/2.5/weather?" +
+    var url = "https://api.openweathermap.org/data/2.5/weather?" +
         "zip=" + zip +
         "&APPID=" + APPID;
 
@@ -63,7 +63,7 @@ function update(weather) {
     humidity.innerHTML = weather.humidity;
     loc.innerHTML = weather.loc;
     temp.innerHTML = weather.temp;
-    icon.src = "weatherappstarter/imgs/codes/" + weather.icon + ".png";
+    icon.src = "WeatherAppStarter/imgs/codes/" + weather.icon + ".png";
     console.log();
    
 }
