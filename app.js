@@ -63,7 +63,7 @@ function update(weather) {
     humidity.innerHTML = weather.humidity;
     loc.innerHTML = weather.loc;
     temp.innerHTML = weather.temp;
-    icon.src = "WeatherAppStarter/imgs/codes/" + weather.icon + ".png";
+    icon.src = "weatherappstarter/imgs/codes/" + weather.icon + ".png";
     console.log();
    
 }
